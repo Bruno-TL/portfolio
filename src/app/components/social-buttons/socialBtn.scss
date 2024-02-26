@@ -1,0 +1,15 @@
+.social {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+}

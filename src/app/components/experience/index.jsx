@@ -6,7 +6,7 @@ export function Experience() {
       <SectionTitle text="Experience" />
       <p>
         +1 years working as a web development, in companies such as Sou Energy
-        and Freelancer´s
+        and Freelancer
       </p>
       <div className="experience-time"></div>
     </div>
