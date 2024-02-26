@@ -13,10 +13,10 @@ export default function Home() {
       <Info />
       <div className="buttons">
         <SocialButtons />
-        <button className="primary-btn">
+        <a className="primary-btn">
           <MdOutlineMarkEmailRead />
           contact me
-        </button>
+        </a>
       </div>
     </main>
   );
