@@ -6,7 +6,10 @@ export const metadata = {
   description: "T.Bruno is software engineer",
 };
 
-const poppins = Poppins({ subsets: ["latin"], weight: ["400", "500", "600"] });
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600"],
+});
 
 export default function RootLayout({ children }) {
   return (
