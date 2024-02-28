@@ -20,7 +20,7 @@
     grid-area: btns;
 
     .primary-btn {
-      background: linear-gradient(90deg, #777cf4 2.62%, #f47777 93.38%);
+      background: linear-gradient(90deg, #28c8e4 2.62%, #4536cf 93.38%);
       border-radius: 24px;
       width: 325px;
       padding: 12px;
@@ -31,6 +31,7 @@
       line-height: 30px;
       text-transform: uppercase;
       border: none;
+      text-decoration: none;
 
       display: flex;
       align-items: center;
@@ -51,7 +52,7 @@
     justify-content: space-between;
     grid-template-areas:
       "header info"
-      "experience empty"
+      "experience btns"
       "empty-2 btns";
   }
 }

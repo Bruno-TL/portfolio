@@ -12,8 +12,10 @@ export function Info() {
       <SectionTitle text="Education" />
       <div className="educational-info">
         <span>🧑🏽‍🎓</span>
-        <span>Analysis and systems development - Estácio de Sá</span>
-        <span>Full Stack Development - Digital College</span>
+        <div className="educational-span">
+          <span>Analysis and systems development - Estácio de Sá</span>
+          <span>Full Stack Development - Digital College</span>
+        </div>
       </div>
     </div>
   );
